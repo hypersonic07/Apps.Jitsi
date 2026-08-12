@@ -1,12 +1,3 @@
-import type {
-	IConfigurationExtend,
-	IConfigurationModify,
-	IEnvironmentRead,
-	IHttp,
-	IRead,
-	IModify,
-	IPersistence,
-} from '@rocket.chat/apps-engine/definition/accessors';
 import type { IVideoConferenceUser } from '@rocket.chat/apps-engine/definition/videoConferences';
 import type {
 	IVideoConfProvider,
@@ -15,8 +6,6 @@ import type {
 	VideoConfDataExtended,
 } from '@rocket.chat/apps-engine/definition/videoConfProviders';
 import { jws } from 'jsrsasign';
-
-import type { VideoConference } from '@rocket.chat/apps-engine/definition/videoConferences';
 
 import type { JitsiApp } from './JitsiApp';
 
